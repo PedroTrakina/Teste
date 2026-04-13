@@ -10,11 +10,11 @@ import {
 const firebaseConfig = {
   apiKey: "SUA_API_KEY",
   authDomain: "SEU_PROJETO.firebaseapp.com",
-  databaseURL: "SUA_DATABASE_URL",
-  projectId: "SEU_PROJETO",
+  databaseURL: "https://teste-e789f-default-rtdb.firebaseio.com/",
+  projectId: "teste-e789f",
   storageBucket: "SEU_PROJETO.firebasestorage.app",
-  messagingSenderId: "SEU_ID",
-  appId: "SEU_APP_ID"
+  messagingSenderId: "",
+  appId: "1:295554224135:web:d28e8c874b09ba45081aa2"
 };
 
 const app = initializeApp(firebaseConfig);
